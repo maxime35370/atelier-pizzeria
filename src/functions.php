@@ -29,7 +29,7 @@ function listPizzas($pdo)
             <td>'.$row['libelle'].'</td>
             <td>'.$row['reference'].'</td>
             <td>'.$row ['prix'].'€</td>
-            <td><img src="/images/'.$row['url_image'].'" width="200px"></td>
+            <td><img src="images/'.$row['url_image'].'" width="200px"></td>
             <td><a href="#">Modifier</a></td>
             <td><a href="#">Supprimer</a></td>
             </tr>';
