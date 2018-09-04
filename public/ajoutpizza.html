@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ajout Pizza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form action="ajoutpizza.php" method="post">
+    <h1>Ajout d'une Pizza</h1>
+    <a href="pizzas.php">annuler</a>
+        <table>
+            <tr><td>Libellé : </td><td><input type="text" name="libelle"></td></tr>
+            <tr><td>Référence : </td><td><input type="text" name="reference"></td></tr>
+            <tr><td>prix : </td><td><input type="text" name="prix"></td></tr>
+            <tr><td>photo : </td><td><input type="file" name="image"></td></tr>
+            <tr><td></td><td><input type="submit" value="Valider"></td></tr>
+        </table>
+    </form>
+</body>
+</html>
